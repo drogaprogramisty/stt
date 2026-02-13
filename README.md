@@ -1,6 +1,6 @@
-# stt
+# stt - no bullshit blazing fast speech-to-text CLI for Apple Silicon 
 
-No bullshit, blazing fast speech-to-text CLI tool for Apple Silicon, optimised for agentic usage.
+optimised for agentic usage.
 
 # Supported languages
 English, and:
