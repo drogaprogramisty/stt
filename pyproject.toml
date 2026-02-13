@@ -1,6 +1,6 @@
 [project]
 name = "stt-cli"
-version = "0.1.0"
+version = "1.0.0"
 description = "Speech-to-text CLI tool for Apple Silicon Macs"
 requires-python = ">=3.9"
 dependencies = [
