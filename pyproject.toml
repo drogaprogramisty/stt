@@ -1,0 +1,22 @@
+[project]
+name = "stt-cli"
+version = "0.1.0"
+description = "Speech-to-text CLI tool for Apple Silicon Macs"
+requires-python = ">=3.9"
+dependencies = [
+    "parakeet-mlx>=0.3.0",
+]
+classifiers = [
+    "Operating System :: MacOS :: MacOS X",
+]
+
+[project.scripts]
+stt = "stt:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+include = ["stt.py"]
