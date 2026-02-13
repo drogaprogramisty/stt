@@ -27,10 +27,10 @@ Bulgarian, Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, German, Gr
 ## Installation
 
 ```bash
-pip install git+https://github.com/lukaszdutka/stt
+pip install git+https://github.com/drogaprogramisty/stt
 
 # or with uv
-uv tool install git+https://github.com/lukaszdutka/stt
+uv tool install git+https://github.com/drogaprogramisty/stt
 ```
 
 ## Output Formats
