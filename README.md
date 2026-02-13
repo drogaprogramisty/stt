@@ -1,6 +1,7 @@
-# stt - no bullshit blazing fast speech-to-text CLI for Apple Silicon 
+# stt - fast speech-to-text CLI for Apple Silicon 
 
-optimised for agentic usage.
+> [!NOTE]  
+> Also: Optimised for agentic usage with Claude Code, Codex, Open Code and more!
 
 # Supported languages
 English, and:
