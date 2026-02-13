@@ -50,7 +50,8 @@ Transcribe audio/video files to text. Supports wav, mp3, m4a, mp4, etc.
 stt audio.mp3                    # Creates audio.txt
 stt video.mp4 -f srt             # Creates video.srt (subtitles)
 stt recording.m4a -f json        # Creates recording.json (with timestamps)
-stt *.wav -o transcripts/        # Batch process to directory
+stt *.wav -o transcripts/        # Batch process with wildcard to directory
+stt file1.mp3 file2.mp3          # Batch process with multiple files
 stt podcast.mp3 -o out.txt       # Custom output path
 stt interview.m4a -f vtt -q      # Quiet mode, only prints output path (CLI usage)
 stt -h                           # for help / all options
