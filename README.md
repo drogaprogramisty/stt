@@ -22,16 +22,14 @@ Bulgarian, Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, German, Gr
 ## Requirements
 
 - macOS with Apple Silicon (M1/M2/M3/M4)
-- Python 3.9+
+- Python 3.10+
 - ffmpeg (`brew install ffmpeg`)
+- uv (`brew install uv` or `curl -LsSf https://astral.sh/uv/install.sh | sh`)
 
 ## Installation
 
 ```bash
-pip install git+https://github.com/drogaprogramisty/stt
-
-# or with uv
-uv tool install git+https://github.com/drogaprogramisty/stt
+uv pip install --system git+https://github.com/drogaprogramisty/stt
 ```
 
 ## Output Formats
