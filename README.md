@@ -24,7 +24,7 @@ Bulgarian, Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, German, Gr
 - macOS with Apple Silicon (M1/M2/M3/M4)
 - Python 3.10+
 - ffmpeg (`brew install ffmpeg`)
-- uv (`brew install uv` or `curl -LsSf https://astral.sh/uv/install.sh | sh`)
+- uv (`brew install uv` or [see official docs](https://docs.astral.sh/uv/getting-started/installation/))
 
 ## Installation
 
